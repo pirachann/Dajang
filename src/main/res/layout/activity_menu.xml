@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".ui.MenuActivity">
+
+
+    <ImageView
+        android:id="@+id/welcomescreen"
+        android:layout_width="600dp"
+        android:layout_height="420dp"
+        android:layout_marginBottom="350dp"
+        android:src="@drawable/welcomescreen"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/deskripsitv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="@string/Deskripsi2"
+        android:fontFamily="@font/montserratmedium"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textColor="@color/birutua"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/welcomescreen" />
+
+    <ImageButton
+        android:id="@+id/btn_kosakata"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="30dp"
+        android:background="@color/white"
+        android:scaleType="centerCrop"
+        android:src="@drawable/iconhome2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.163"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/deskripsitv" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:gravity="center"
+        android:text="Kumpulan\nKosa Kata"
+        android:fontFamily="@font/montserratmedium"
+        android:textColor="@color/birutua"
+        app:layout_constraintEnd_toEndOf="@+id/btn_kosakata"
+        app:layout_constraintHorizontal_bias="0.452"
+        app:layout_constraintStart_toStartOf="@+id/btn_kosakata"
+        app:layout_constraintTop_toBottomOf="@id/btn_kosakata" />
+
+    <ImageButton
+        android:id="@+id/btn_kuis"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="15dp"
+        android:background="@color/white"
+        android:scaleType="centerCrop"
+        android:src="@drawable/iconhome1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.836"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/deskripsitv" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:gravity="center"
+        android:text="Kuis"
+        android:fontFamily="@font/montserratmedium"
+        android:textColor="@color/birutua"
+        app:layout_constraintEnd_toEndOf="@+id/btn_kuis"
+        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintStart_toStartOf="@+id/btn_kuis"
+        app:layout_constraintTop_toBottomOf="@id/btn_kuis" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

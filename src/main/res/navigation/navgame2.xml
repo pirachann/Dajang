@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_graph"
+    app:startDestination="@id/titleFragment2">
+
+    <fragment
+        android:id="@+id/titleFragment2"
+        android:name="com.example.dajang.ui.game.title.TitleFragment2"
+        android:label="TitleFragment2" >
+        <action
+            android:id="@+id/action_titleFragment2_to_gameFragment2"
+            app:destination="@id/gameFragment2"
+            app:popUpTo="@id/gameFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/gameFragment2"
+        android:name="com.example.dajang.ui.game.quiz.QuizFragment2"
+        android:label="GameFragment2">
+
+        <action
+
+            android:id="@+id/action_gameFragment2_to_scoreFragment2"
+            app:destination="@id/scoreFragment2"
+            app:popUpTo="@id/scoreFragment2" />
+
+        <argument
+            android:name="nama"
+            android:defaultValue="nama"
+            app:argType="string" />
+
+    </fragment>
+    <fragment
+        android:id="@+id/scoreFragment2"
+        android:name="com.example.dajang.ui.game.score.ScoreFragment"
+        android:label="ScoreFragment2" >
+        <argument
+            android:name="score"
+            app:argType="integer"
+            android:defaultValue="0" />
+        <argument
+            android:name="nama"
+            app:argType="string"
+            android:defaultValue="nama" />
+    </fragment>
+</navigation>

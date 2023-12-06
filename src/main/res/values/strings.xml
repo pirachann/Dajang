@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Dajang</string>
+    <string name="Welcome">Halo, Yeoreobun</string>
+    <string name="Welcome2">Halo,Selamat Datang!</string>
+    <string name="Deskripsi">Kosa Kata apa yang ingin kamu\npelajari?</string>
+    <string name="Deskripsi2">Ayo pelajari kosa kata bahasa Korea \ndan ikuti kuis untuk mengasah kemampuanmu</string>
+    <string name="MenuQuiz">Pilihlah jenis soal yang ingin kamu kerjakan!</string>
+    <string name="hint">Cari Disini</string>
+    <string name="about">About</string>
+    <string name="about_app">About App:</string>
+    <string name="app">"Dajang" dibuat untuk memudahkan para pengguna dalam mempelajari kosa kata dasar bahasa Korea yang terdapat dalam buku Korea Foundation "인도네시아인을 위한 종합한국어 1권", "서울대 한국어 1A, "서강 한국어1A""</string>
+    <string name="about_me">About me:</string>
+    <string name="my_name">Fhira Marsya (2001278), Mahasiswa Pendidikan Bahasa Korea</string>
+    <string name="email">fhiramarsya@upi.edu</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="quiz">Quiz</string>
+</resources>
